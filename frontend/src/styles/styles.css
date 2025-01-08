@@ -1,0 +1,72 @@
+/* 全局樣式 */
+.schedule-app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 標題樣式 */
+.schedule-app h1.main-title {
+  font-family: "Arial", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #003d82;
+}
+
+/* 表單樣式 */
+.schedule-form {
+  background-color: #99e7ff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.schedule-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #0056b3;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.schedule-form button:hover {
+  background-color: #003d82;
+}
+
+/* 列表樣式 */
+.schedule-item {
+  background-color: #daf8ff;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  margin: 10px 0;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: box-shadow 0.3s;
+}
+
+.schedule-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-actions button {
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.btn-edit {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+}
